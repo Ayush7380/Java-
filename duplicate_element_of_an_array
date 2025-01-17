@@ -1,0 +1,16 @@
+import java.util.*;
+class Playground {
+    public static void main(String[ ] args) {
+        int arr[]={12,43,45,45,23,56,34,12};{
+            Arrays.sort(arr);
+            for(int i=0;i<=arr.length-2;i++){
+                if(arr[i]==arr[i+1]){
+                    System.out.println(arr[i]);
+                    break;
+                    
+                }
+                }            
+        }
+
+    }
+}
