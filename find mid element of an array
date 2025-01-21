@@ -7,3 +7,13 @@ class Playground {
 
     }
 }
+// in String 
+class Playground {
+    public static void main(String[ ] args) {
+        String arr[]={"a","b","c","d","e","f","g"};
+        int  mid=arr.length/2;
+        String id=arr[mid];
+        System.out.println(id);
+
+    }
+}
